@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="top">
+        <h1>Muhammad Mabroor Khan </h1>
+    </div>
+    <div class="container">
+        <div class="input" id="input"></div>
+        <div class="inner">
+            <button class="one numbers" onclick="myFunction('7')">7</button>
+            <button class="one numbers" onclick="myFunction('8')">8</button>
+            <button class="one numbers" onclick="myFunction('9')">9</button>
+            <button class="one clrbtn" onclick="myFunction('+')">+</button>
+            <br>
+            <button class="one numbers" onclick="myFunction('4')">4</button>
+            <button class="one numbers" onclick="myFunction('5')">5</button>
+            <button class="one numbers" onclick="myFunction('6')">6</button>
+            <button class="one clrbtn" onclick="myFunction('-')">-</button>
+            <br>
+            <button class="one numbers" onclick="myFunction('1')">1</button>
+            <button class="one numbers" onclick="myFunction('2')">2</button>
+            <button class="one numbers" onclick="myFunction('3')">3</button>
+            <button class="one clrbtn" onclick="myFunction('*')">*</button>
+            <br>
+            <button class="one numbers" onclick="myFunction('0')">0</button>
+            <button class="one " onclick="myFunction('.')">.</button>
+            <button class="one cbtn" onclick="clearInput()">C</button>
+            <button class="one clrbtn" id="first" onclick="calculate()">=</button>
+        </div>
+    </div>
+
+    <script src="style.js"></script>
+</body>
+
+</html>
